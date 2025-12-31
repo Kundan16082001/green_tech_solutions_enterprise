@@ -227,7 +227,7 @@ function displayProductDetails(product) {
     const message = savedLang === 'en' ? 
         `Hello, I am interested in your ${product.name.en}.` : 
         `नमस्ते, मुझे आपके ${product.name.hi} में रुचि है।`;
-    whatsappBtn.href = `https://wa.me/919876543210?text=${encodeURIComponent(message)}`;
+    whatsappBtn.href = `https://wa.me/917378997339?text=${encodeURIComponent(message)}`;
 }
 
 // Utility function to get current language
