@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": {
+            "en": "Premium Fertilizer Mix",
+            "hi": "प्रीमियम उर्वरक मिश्रण"
+        },
+        "category": {
+            "en": "Fertilizers",
+            "hi": "उर्वरक"
+        },
+        "description": {
+            "en": "High-quality fertilizer blend designed to enhance crop yield and soil health. Contains essential nutrients for optimal plant growth.",
+            "hi": "फसल की पैदावार और मिट्टी की सेहत को बढ़ाने के लिए डिज़ाइन किया गया उच्च गुणवत्ता वाला उर्वरक मिश्रण। इष्टतम पौध विकास के लिए आवश्यक पोषक तत्व शामिल हैं।"
+        },
+        "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 2,
+        "name": {
+            "en": "Organic Pest Control Spray",
+            "hi": "जैविक कीटनाशक स्प्रे"
+        },
+        "category": {
+            "en": "Pesticides",
+            "hi": "कीटनाशक"
+        },
+        "description": {
+            "en": "Natural and eco-friendly pest control solution that protects crops without harming beneficial insects or the environment.",
+            "hi": "प्राकृतिक और पर्यावरण अनुकूल कीटनाशक नियंत्रण समाधान जो फसलों की रक्षा करता है बिना लाभकारी कीड़ों या पर्यावरण को नुकसान पहुंचाए।"
+        },
+        "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 3,
+        "name": {
+            "en": "Crop Growth Enhancer",
+            "hi": "फसल विकास बढ़ाने वाला"
+        },
+        "category": {
+            "en": "Medicines",
+            "hi": "दवाएं"
+        },
+        "description": {
+            "en": "Advanced agricultural medicine that boosts plant immunity and promotes healthy growth throughout the crop cycle.",
+            "hi": "उन्नत कृषि औषधि जो पौधों की प्रतिरक्षा को बढ़ाती है और फसल चक्र के दौरान स्वस्थ विकास को बढ़ावा देती है।"
+        },
+        "image": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 4,
+        "name": {
+            "en": "Soil Conditioner Powder",
+            "hi": "मिट्टी कंडीशनर पाउडर"
+        },
+        "category": {
+            "en": "Fertilizers",
+            "hi": "उर्वरक"
+        },
+        "description": {
+            "en": "Premium soil amendment that improves soil structure, water retention, and nutrient availability for better crop performance.",
+            "hi": "प्रीमियम मिट्टी संशोधन जो मिट्टी की संरचना, जल धारण और पोषक तत्व उपलब्धता में सुधार करता है बेहतर फसल प्रदर्शन के लिए।"
+        },
+        "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 5,
+        "name": {
+            "en": "Insecticide Concentrate",
+            "hi": "कीटनाशक सांद्रण"
+        },
+        "category": {
+            "en": "Pesticides",
+            "hi": "कीटनाशक"
+        },
+        "description": {
+            "en": "Powerful insecticide concentrate effective against a wide range of agricultural pests while being safe for crops and farmers.",
+            "hi": "शक्तिशाली कीटनाशक सांद्रण जो कृषि कीटों की एक विस्तृत श्रृंखला के खिलाफ प्रभावी है जबकि फसलों और किसानों के लिए सुरक्षित है।"
+        },
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    },
+    {
+        "id": 6,
+        "name": {
+            "en": "Plant Nutrition Supplement",
+            "hi": "प्लांट न्यूट्रिशन सप्लीमेंट"
+        },
+        "category": {
+            "en": "Medicines",
+            "hi": "दवाएं"
+        },
+        "description": {
+            "en": "Comprehensive plant nutrition supplement providing micronutrients essential for healthy plant development and maximum yield.",
+            "hi": "व्यापक पौध पोषण सप्लीमेंट जो स्वस्थ पौध विकास और अधिकतम उपज के लिए आवश्यक सूक्ष्म पोषक तत्व प्रदान करता है।"
+        },
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    }
+]
