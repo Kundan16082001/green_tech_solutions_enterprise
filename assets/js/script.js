@@ -1,236 +1,233 @@
-// Green Tech Solutions Enterprises - JavaScript Functionality
+// ==================================================
+// Green Tech Solutions Enterprises - script.js
+// ==================================================
 
-document.addEventListener('DOMContentLoaded', function() {
-    // Language Toggle Functionality
-    const langToggle = document.getElementById('langToggle');
+document.addEventListener("DOMContentLoaded", () => {
+
+    /* ========== LANGUAGE TOGGLE ========== */
+    const langToggle = document.getElementById("langToggle");
+    const savedLang = localStorage.getItem("preferredLanguage") || "en";
+    setLanguage(savedLang);
+
     if (langToggle) {
-        // Load saved language preference
-        const savedLang = localStorage.getItem('preferredLanguage') || 'en';
-        setLanguage(savedLang);
-
-        langToggle.addEventListener('click', function() {
-            const currentLang = this.getAttribute('data-lang');
-            const newLang = currentLang === 'en' ? 'hi' : 'en';
-            setLanguage(newLang);
-            localStorage.setItem('preferredLanguage', newLang);
+        langToggle.addEventListener("click", () => {
+            const current = langToggle.getAttribute("data-lang");
+            const next = current === "en" ? "hi" : "en";
+            setLanguage(next);
+            localStorage.setItem("preferredLanguage", next);
         });
     }
 
-    // Scroll Animations
-    const observerOptions = {
-        threshold: 0.1,
-        rootMargin: '0px 0px -50px 0px'
-    };
+    /* ========== SCROLL ANIMATIONS ========== */
+    const observer = new IntersectionObserver(
+        entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("animate");
+                }
+            });
+        },
+        { threshold: 0.1 }
+    );
 
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate');
-            }
-        });
-    }, observerOptions);
-
-    // Observe elements for animation
-    document.querySelectorAll('.slide-up').forEach(el => {
+    document.querySelectorAll(".slide-up, .fade-in").forEach(el => {
         observer.observe(el);
     });
 
-    // Load Products (for products.html)
-    if (document.getElementById('productsGrid')) {
+    /* ========== PRODUCTS PAGE ========== */
+    if (document.getElementById("productsGrid")) {
         loadProducts();
     }
 
-    // Load Product Details (for product.html)
-    if (document.getElementById('productName')) {
+    /* ========== PRODUCT DETAILS PAGE ========== */
+    if (document.getElementById("productName")) {
         loadProductDetails();
     }
 
-    // Contact Form Handling
-    const contactForm = document.getElementById('contactForm');
+    /* ========== CONTACT FORM ========== */
+    const contactForm = document.getElementById("contactForm");
     if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
+        contactForm.addEventListener("submit", e => {
             e.preventDefault();
-            // Simulate form submission
-            const formSuccess = document.getElementById('formSuccess');
-            if (formSuccess) {
-                formSuccess.classList.remove('d-none');
+            const success = document.getElementById("formSuccess");
+            if (success) {
+                success.classList.remove("d-none");
                 contactForm.reset();
-                setTimeout(() => {
-                    formSuccess.classList.add('d-none');
-                }, 5000);
+                setTimeout(() => success.classList.add("d-none"), 5000);
             }
         });
     }
 
-    // Product Filtering
-    const categoryButtons = document.querySelectorAll('input[name="category"]');
-    categoryButtons.forEach(button => {
-        button.addEventListener('change', function() {
-            filterProducts(this.id);
+    /* ========== CATEGORY FILTER ========== */
+    document.querySelectorAll('input[name="category"]').forEach(input => {
+        input.addEventListener("change", () => {
+            filterProducts(input.id);
         });
     });
 });
 
+/* ==================================================
+   LANGUAGE HANDLER
+================================================== */
 function setLanguage(lang) {
-    const langToggle = document.getElementById('langToggle');
-    if (langToggle) {
-        langToggle.setAttribute('data-lang', lang);
-        langToggle.textContent = lang === 'en' ? 'हिंदी' : 'English';
+    const toggle = document.getElementById("langToggle");
+    if (toggle) {
+        toggle.setAttribute("data-lang", lang);
+        toggle.textContent = lang === "en" ? "हिंदी" : "English";
     }
 
-    // Update all elements with data-en and data-hi attributes
-    document.querySelectorAll('[data-en], [data-hi]').forEach(element => {
-        const text = element.getAttribute(`data-${lang}`);
-        if (text) {
-            element.textContent = text;
-        }
+    document.querySelectorAll("[data-en],[data-hi]").forEach(el => {
+        const value = el.getAttribute(`data-${lang}`);
+        if (value) el.textContent = value;
     });
 
-    // Update document language
     document.documentElement.lang = lang;
 
-    // Update page title
-    const titleElement = document.querySelector('title');
-    if (titleElement && titleElement.hasAttribute(`data-${lang}`)) {
-        titleElement.textContent = titleElement.getAttribute(`data-${lang}`);
+    const title = document.querySelector("title");
+    if (title && title.hasAttribute(`data-${lang}`)) {
+        title.textContent = title.getAttribute(`data-${lang}`);
     }
 }
 
+/* ==================================================
+   LOAD PRODUCTS
+================================================== */
 async function loadProducts() {
     try {
-        const response = await fetch('assets/data/products.json');
-        const products = await response.json();
+        const res = await fetch("assets/data/products.json");
+        const products = await res.json();
         displayProducts(products);
-    } catch (error) {
-        console.error('Error loading products:', error);
+        setLanguage(getCurrentLanguage()); // re-apply language
+    } catch (err) {
+        console.error("Product load failed:", err);
     }
 }
 
+/* ==================================================
+   DISPLAY PRODUCTS
+================================================== */
 function displayProducts(products) {
-    const productsGrid = document.getElementById('productsGrid');
-    if (!productsGrid) return;
+    const grid = document.getElementById("productsGrid");
+    if (!grid) return;
 
-    productsGrid.innerHTML = '';
-
-    products.forEach(product => {
-        const productCard = createProductCard(product);
-        productsGrid.appendChild(productCard);
-    });
+    grid.innerHTML = "";
+    products.forEach(p => grid.appendChild(createProductCard(p)));
 }
 
+/* ==================================================
+   PRODUCT CARD (FIXED CATEGORY DATA)
+================================================== */
 function createProductCard(product) {
-    const col = document.createElement('div');
-    col.className = 'col-lg-4 col-md-6 mb-4';
+    const col = document.createElement("div");
+    col.className = "col-lg-4 col-md-6 mb-4";
 
-    const card = document.createElement('div');
-    card.className = 'card h-100 product-card';
+    const card = document.createElement("div");
+    card.className = "card h-100 product-card";
+    card.dataset.category = product.category.en.toLowerCase(); // ✅ FIX
 
-    const img = document.createElement('img');
+    const img = document.createElement("img");
     img.src = product.image;
     img.alt = product.name.en;
-    img.className = 'card-img-top';
-    img.loading = 'lazy';
+    img.className = "card-img-top";
+    img.loading = "lazy";
 
-    const cardBody = document.createElement('div');
-    cardBody.className = 'card-body d-flex flex-column';
+    const body = document.createElement("div");
+    body.className = "card-body d-flex flex-column";
 
-    const title = document.createElement('h5');
-    title.className = 'card-title';
-    title.setAttribute('data-en', product.name.en);
-    title.setAttribute('data-hi', product.name.hi);
+    const title = document.createElement("h5");
+    title.className = "card-title";
+    title.setAttribute("data-en", product.name.en);
+    title.setAttribute("data-hi", product.name.hi);
     title.textContent = product.name.en;
 
-    const category = document.createElement('p');
-    category.className = 'text-muted mb-2';
-    category.setAttribute('data-en', product.category.en);
-    category.setAttribute('data-hi', product.category.hi);
+    const category = document.createElement("p");
+    category.className = "text-muted mb-2";
+    category.setAttribute("data-en", product.category.en);
+    category.setAttribute("data-hi", product.category.hi);
     category.textContent = product.category.en;
 
-    const description = document.createElement('p');
-    description.className = 'card-text flex-grow-1';
-    description.setAttribute('data-en', product.description.en.substring(0, 100) + '...');
-    description.setAttribute('data-hi', product.description.hi.substring(0, 100) + '...');
-    description.textContent = product.description.en.substring(0, 100) + '...';
+    const desc = document.createElement("p");
+    desc.className = "card-text flex-grow-1";
+    desc.setAttribute("data-en", product.description.en.slice(0, 100) + "...");
+    desc.setAttribute("data-hi", product.description.hi.slice(0, 100) + "...");
+    desc.textContent = product.description.en.slice(0, 100) + "...";
 
-    const link = document.createElement('a');
-    link.href = `product.html?id=${product.id}`;
-    link.className = 'btn btn-primary mt-auto';
-    link.setAttribute('data-en', 'View Details');
-    link.setAttribute('data-hi', 'विवरण देखें');
-    link.textContent = 'View Details';
+    const btn = document.createElement("a");
+    btn.href = `product.html?id=${product.id}`;
+    btn.className = "btn btn-primary mt-auto";
+    btn.setAttribute("data-en", "View Details");
+    btn.setAttribute("data-hi", "विवरण देखें");
+    btn.textContent = "View Details";
 
-    cardBody.appendChild(title);
-    cardBody.appendChild(category);
-    cardBody.appendChild(description);
-    cardBody.appendChild(link);
-
-    card.appendChild(img);
-    card.appendChild(cardBody);
+    body.append(title, category, desc, btn);
+    card.append(img, body);
     col.appendChild(card);
 
     return col;
 }
 
+/* ==================================================
+   FILTER PRODUCTS (NOW WORKING)
+================================================== */
 function filterProducts(category) {
-    const productCards = document.querySelectorAll('.product-card');
-    const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+    document.querySelectorAll(".product-card").forEach(card => {
+        const show =
+            category === "all" ||
+            card.dataset.category === category;
 
-    productCards.forEach(card => {
-        const cardCategory = card.querySelector('.text-muted').getAttribute(`data-${savedLang}`).toLowerCase();
-        const filterCategory = category === 'all' ? '' : category;
-
-        if (filterCategory === '' || cardCategory.includes(filterCategory.replace('s', ''))) {
-            card.parentElement.style.display = 'block';
-        } else {
-            card.parentElement.style.display = 'none';
-        }
+        card.parentElement.style.display = show ? "block" : "none";
     });
 }
 
+/* ==================================================
+   PRODUCT DETAILS
+================================================== */
 function loadProductDetails() {
-    const urlParams = new URLSearchParams(window.location.search);
-    const productId = urlParams.get('id');
+    const id = new URLSearchParams(window.location.search).get("id");
+    if (!id) return;
 
-    if (productId) {
-        fetch('assets/data/products.json')
-            .then(response => response.json())
-            .then(products => {
-                const product = products.find(p => p.id == productId);
-                if (product) {
-                    displayProductDetails(product);
-                }
-            })
-            .catch(error => console.error('Error loading product details:', error));
-    }
+    fetch("assets/data/products.json")
+        .then(r => r.json())
+        .then(products => {
+            const product = products.find(p => p.id == id);
+            if (product) renderProductDetails(product);
+        })
+        .catch(err => console.error(err));
 }
 
-function displayProductDetails(product) {
-    const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+function renderProductDetails(product) {
+    const lang = getCurrentLanguage();
 
-    document.getElementById('productImage').src = product.image;
-    document.getElementById('productImage').alt = product.name[savedLang];
+    document.getElementById("productImage").src = product.image;
+    document.getElementById("productImage").alt = product.name[lang];
 
-    document.getElementById('productName').setAttribute('data-en', product.name.en);
-    document.getElementById('productName').setAttribute('data-hi', product.name.hi);
-    document.getElementById('productName').textContent = product.name[savedLang];
+    const name = document.getElementById("productName");
+    name.setAttribute("data-en", product.name.en);
+    name.setAttribute("data-hi", product.name.hi);
+    name.textContent = product.name[lang];
 
-    document.getElementById('productDescription').setAttribute('data-en', product.description.en);
-    document.getElementById('productDescription').setAttribute('data-hi', product.description.hi);
-    document.getElementById('productDescription').textContent = product.description[savedLang];
+    const desc = document.getElementById("productDescription");
+    desc.setAttribute("data-en", product.description.en);
+    desc.setAttribute("data-hi", product.description.hi);
+    desc.textContent = product.description[lang];
 
-    const categoryBadge = document.getElementById('productCategory');
-    categoryBadge.setAttribute('data-en', product.category.en);
-    categoryBadge.setAttribute('data-hi', product.category.hi);
-    categoryBadge.textContent = product.category[savedLang];
+    const badge = document.getElementById("productCategory");
+    badge.setAttribute("data-en", product.category.en);
+    badge.setAttribute("data-hi", product.category.hi);
+    badge.textContent = product.category[lang];
 
-    const whatsappBtn = document.getElementById('whatsappBtn');
-    const message = savedLang === 'en' ? 
-        `Hello, I am interested in your ${product.name.en}.` : 
-        `नमस्ते, मुझे आपके ${product.name.hi} में रुचि है।`;
-    whatsappBtn.href = `https://wa.me/917378997339?text=${encodeURIComponent(message)}`;
+    const msg =
+        lang === "en"
+            ? `Hello, I am interested in your ${product.name.en}.`
+            : `नमस्ते, मुझे आपके ${product.name.hi} में रुचि है।`;
+
+    document.getElementById("whatsappBtn").href =
+        `https://wa.me/917378997339?text=${encodeURIComponent(msg)}`;
 }
 
-// Utility function to get current language
+/* ==================================================
+   UTIL
+================================================== */
 function getCurrentLanguage() {
-    return localStorage.getItem('preferredLanguage') || 'en';
+    return localStorage.getItem("preferredLanguage") || "en";
 }
