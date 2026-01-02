@@ -86,6 +86,59 @@
         </div>
     </section>
 
+    <!-- contact us -->
+     <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="mb-4 fade-in" data-en="Contact Us" data-hi="हमसे संपर्क करें">Contact Us</h1>
+                    <p class="lead mb-4" data-en="Get in touch with us for your agricultural needs and product inquiries." data-hi="अपनी कृषि आवश्यकताओं और उत्पाद पूछताछ के लिए हमसे संपर्क करें।">Get in touch with us for your agricultural needs and product inquiries.</p>
+                    
+                    <div class="mb-4">
+                        <h5 data-en="Address:" data-hi="पता:">Address:</h5>
+                        <p>L-20, Shop No. OS01, Swapnapurti CHS, Sector-36, Kharghar, Navi Mumbai - 410210, India</p>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <!-- change whatsapp no. here -->
+                        <a href="https://wa.me/917378997339?text=Hello, I am interested in your agro products." class="btn btn-success btn-lg" target="_blank">
+                            <i class="fab fa-whatsapp"></i> <span data-en="Chat on WhatsApp" data-hi="व्हाट्सएप पर चैट करें">Chat on WhatsApp</span>
+                        </a>
+                    </div>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.0000!2d73.0000!3d19.0000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDI3JzAwLjAiTiA3M8KwMzAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h3 class="card-title mb-4" data-en="Send us a Message" data-hi="हमें एक संदेश भेजें">Send us a Message</h3>
+                           <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label" data-en="Name" data-hi="नाम">Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label" data-en="Email" data-hi="ईमेल">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label" data-en="Message" data-hi="संदेश">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-lg w-100" data-en="Send Message" data-hi="संदेश भेजें">Send Message</button>
+                            </form>
+                            <div id="formSuccess" class="alert alert-success mt-3 d-none">
+                                <i class="fas fa-check-circle"></i> <span data-en="Message sent successfully!" data-hi="संदेश सफलतापूर्वक भेजा गया!">Message sent successfully!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="bg-dark text-white py-4">
         <div class="container text-center">
             <p data-en="&copy; 2024 Green Tech Solutions Enterprises. All rights reserved." data-hi="&copy; 2024 ग्रीन टेक सॉल्यूशंस एंटरप्राइजेज। सभी अधिकार सुरक्षित।">&copy; 2024 Green Tech Solutions Enterprises. All rights reserved.</p>
@@ -94,5 +147,30 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <script>
+    (function () {
+        emailjs.init("u3wDhROx-lok58B3m"); // 👈 replace
+    })();
+
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        emailjs.sendForm(
+        "service_9u8cjwp",   // 👈 replace
+        "template_s0mcmve",  // 👈 replace
+        this
+        ).then(function () {
+        document.getElementById("formSuccess").classList.remove("d-none");
+        document.getElementById("contactForm").reset();
+        }, function (error) {
+        alert("❌ Failed to send message. Try again.");
+        console.log(error);
+        });
+    });
+    </script>
+
 </body>
 </html>
