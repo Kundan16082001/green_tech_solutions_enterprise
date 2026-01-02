@@ -1,98 +1,4802 @@
 [
-    {
-        "id": 1,
-        "name": {
-            "en": "Premium Fertilizer Mix",
-            "hi": "प्रीमियम उर्वरक मिश्रण"
-        },
-        "category": {
-            "en": "Fertilizers",
-            "hi": "उर्वरक"
-        },
-        "description": {
-            "en": "High-quality fertilizer blend designed to enhance crop yield and soil health. Contains essential nutrients for optimal plant growth.",
-            "hi": "फसल की पैदावार और मिट्टी की सेहत को बढ़ाने के लिए डिज़ाइन किया गया उच्च गुणवत्ता वाला उर्वरक मिश्रण। इष्टतम पौध विकास के लिए आवश्यक पोषक तत्व शामिल हैं।"
-        },
-        "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+  {
+    "id": 1,
+    "name": {
+      "en": "IFFCO Urea",
+      "hi": "IFFCO यूरिया"
     },
-    {
-        "id": 2,
-        "name": {
-            "en": "Organic Pest Control Spray",
-            "hi": "जैविक कीटनाशक स्प्रे"
-        },
-        "category": {
-            "en": "Pesticides",
-            "hi": "कीटनाशक"
-        },
-        "description": {
-            "en": "Natural and eco-friendly pest control solution that protects crops without harming beneficial insects or the environment.",
-            "hi": "प्राकृतिक और पर्यावरण अनुकूल कीटनाशक नियंत्रण समाधान जो फसलों की रक्षा करता है बिना लाभकारी कीड़ों या पर्यावरण को नुकसान पहुंचाए।"
-        },
-        "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
     },
-    {
-        "id": 3,
-        "name": {
-            "en": "Crop Growth Enhancer",
-            "hi": "फसल विकास बढ़ाने वाला"
-        },
-        "category": {
-            "en": "Medicines",
-            "hi": "दवाएं"
-        },
-        "description": {
-            "en": "Advanced agricultural medicine that boosts plant immunity and promotes healthy growth throughout the crop cycle.",
-            "hi": "उन्नत कृषि औषधि जो पौधों की प्रतिरक्षा को बढ़ाती है और फसल चक्र के दौरान स्वस्थ विकास को बढ़ावा देती है।"
-        },
-        "image": "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
     },
-    {
-        "id": 4,
-        "name": {
-            "en": "Soil Conditioner Powder",
-            "hi": "मिट्टी कंडीशनर पाउडर"
-        },
-        "category": {
-            "en": "Fertilizers",
-            "hi": "उर्वरक"
-        },
-        "description": {
-            "en": "Premium soil amendment that improves soil structure, water retention, and nutrient availability for better crop performance.",
-            "hi": "प्रीमियम मिट्टी संशोधन जो मिट्टी की संरचना, जल धारण और पोषक तत्व उपलब्धता में सुधार करता है बेहतर फसल प्रदर्शन के लिए।"
-        },
-        "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 2,
+    "name": {
+      "en": "IFFCO Imidacloprid",
+      "hi": "IFFCO इमिडाक्लोप्रिड"
     },
-    {
-        "id": 5,
-        "name": {
-            "en": "Insecticide Concentrate",
-            "hi": "कीटनाशक सांद्रण"
-        },
-        "category": {
-            "en": "Pesticides",
-            "hi": "कीटनाशक"
-        },
-        "description": {
-            "en": "Powerful insecticide concentrate effective against a wide range of agricultural pests while being safe for crops and farmers.",
-            "hi": "शक्तिशाली कीटनाशक सांद्रण जो कृषि कीटों की एक विस्तृत श्रृंखला के खिलाफ प्रभावी है जबकि फसलों और किसानों के लिए सुरक्षित है।"
-        },
-        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
     },
-    {
-        "id": 6,
-        "name": {
-            "en": "Plant Nutrition Supplement",
-            "hi": "प्लांट न्यूट्रिशन सप्लीमेंट"
-        },
-        "category": {
-            "en": "Medicines",
-            "hi": "दवाएं"
-        },
-        "description": {
-            "en": "Comprehensive plant nutrition supplement providing micronutrients essential for healthy plant development and maximum yield.",
-            "hi": "व्यापक पौध पोषण सप्लीमेंट जो स्वस्थ पौध विकास और अधिकतम उपज के लिए आवश्यक सूक्ष्म पोषक तत्व प्रदान करता है।"
-        },
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
-    }
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 3,
+    "name": {
+      "en": "IFFCO Plant Growth Regulator",
+      "hi": "IFFCO पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 4,
+    "name": {
+      "en": "IFFCO Hybrid Cotton Seeds",
+      "hi": "IFFCO हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 5,
+    "name": {
+      "en": "IFFCO Bio Fertilizer",
+      "hi": "IFFCO जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 6,
+    "name": {
+      "en": "UPL DAP",
+      "hi": "UPL डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 7,
+    "name": {
+      "en": "UPL Chlorpyrifos",
+      "hi": "UPL क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 8,
+    "name": {
+      "en": "UPL Fungicide Plus",
+      "hi": "UPL फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 9,
+    "name": {
+      "en": "UPL Hybrid Paddy Seeds",
+      "hi": "UPL हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 10,
+    "name": {
+      "en": "UPL Vermicompost",
+      "hi": "UPL वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 11,
+    "name": {
+      "en": "Bayer NPK 19:19:19",
+      "hi": "Bayer एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 12,
+    "name": {
+      "en": "Bayer Lambda Cyhalothrin",
+      "hi": "Bayer लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 13,
+    "name": {
+      "en": "Bayer Crop Immunity Booster",
+      "hi": "Bayer फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 14,
+    "name": {
+      "en": "Bayer Hybrid Maize Seeds",
+      "hi": "Bayer हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 15,
+    "name": {
+      "en": "Bayer Neem Oil Concentrate",
+      "hi": "Bayer नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 16,
+    "name": {
+      "en": "Syngenta Potash",
+      "hi": "Syngenta पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 17,
+    "name": {
+      "en": "Syngenta Cypermethrin",
+      "hi": "Syngenta साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 18,
+    "name": {
+      "en": "Syngenta Root Activator",
+      "hi": "Syngenta जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 19,
+    "name": {
+      "en": "Syngenta Vegetable Seed Mix",
+      "hi": "Syngenta सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 20,
+    "name": {
+      "en": "Syngenta Trichoderma",
+      "hi": "Syngenta ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 21,
+    "name": {
+      "en": "Tata Rallis Zinc Sulphate",
+      "hi": "Tata Rallis जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 22,
+    "name": {
+      "en": "Tata Rallis Thiamethoxam",
+      "hi": "Tata Rallis थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 23,
+    "name": {
+      "en": "Tata Rallis Micronutrient Mix",
+      "hi": "Tata Rallis सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 24,
+    "name": {
+      "en": "Tata Rallis Mustard Seeds",
+      "hi": "Tata Rallis सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 25,
+    "name": {
+      "en": "Tata Rallis Rhizobium Culture",
+      "hi": "Tata Rallis राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 26,
+    "name": {
+      "en": "Coromandel Urea",
+      "hi": "Coromandel यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 27,
+    "name": {
+      "en": "Coromandel Imidacloprid",
+      "hi": "Coromandel इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 28,
+    "name": {
+      "en": "Coromandel Plant Growth Regulator",
+      "hi": "Coromandel पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 29,
+    "name": {
+      "en": "Coromandel Hybrid Cotton Seeds",
+      "hi": "Coromandel हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 30,
+    "name": {
+      "en": "Coromandel Bio Fertilizer",
+      "hi": "Coromandel जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 31,
+    "name": {
+      "en": "BASF DAP",
+      "hi": "BASF डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 32,
+    "name": {
+      "en": "BASF Chlorpyrifos",
+      "hi": "BASF क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 33,
+    "name": {
+      "en": "BASF Fungicide Plus",
+      "hi": "BASF फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 34,
+    "name": {
+      "en": "BASF Hybrid Paddy Seeds",
+      "hi": "BASF हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 35,
+    "name": {
+      "en": "BASF Vermicompost",
+      "hi": "BASF वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 36,
+    "name": {
+      "en": "PI Industries NPK 19:19:19",
+      "hi": "PI Industries एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 37,
+    "name": {
+      "en": "PI Industries Lambda Cyhalothrin",
+      "hi": "PI Industries लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 38,
+    "name": {
+      "en": "PI Industries Crop Immunity Booster",
+      "hi": "PI Industries फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 39,
+    "name": {
+      "en": "PI Industries Hybrid Maize Seeds",
+      "hi": "PI Industries हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 40,
+    "name": {
+      "en": "PI Industries Neem Oil Concentrate",
+      "hi": "PI Industries नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 41,
+    "name": {
+      "en": "IFFCO Potash",
+      "hi": "IFFCO पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 42,
+    "name": {
+      "en": "IFFCO Cypermethrin",
+      "hi": "IFFCO साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 43,
+    "name": {
+      "en": "IFFCO Root Activator",
+      "hi": "IFFCO जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 44,
+    "name": {
+      "en": "IFFCO Vegetable Seed Mix",
+      "hi": "IFFCO सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 45,
+    "name": {
+      "en": "IFFCO Trichoderma",
+      "hi": "IFFCO ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 46,
+    "name": {
+      "en": "UPL Zinc Sulphate",
+      "hi": "UPL जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 47,
+    "name": {
+      "en": "UPL Thiamethoxam",
+      "hi": "UPL थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 48,
+    "name": {
+      "en": "UPL Micronutrient Mix",
+      "hi": "UPL सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 49,
+    "name": {
+      "en": "UPL Mustard Seeds",
+      "hi": "UPL सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 50,
+    "name": {
+      "en": "UPL Rhizobium Culture",
+      "hi": "UPL राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 51,
+    "name": {
+      "en": "Bayer Urea",
+      "hi": "Bayer यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 52,
+    "name": {
+      "en": "Bayer Imidacloprid",
+      "hi": "Bayer इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 53,
+    "name": {
+      "en": "Bayer Plant Growth Regulator",
+      "hi": "Bayer पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 54,
+    "name": {
+      "en": "Bayer Hybrid Cotton Seeds",
+      "hi": "Bayer हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 55,
+    "name": {
+      "en": "Bayer Bio Fertilizer",
+      "hi": "Bayer जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 56,
+    "name": {
+      "en": "Syngenta DAP",
+      "hi": "Syngenta डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 57,
+    "name": {
+      "en": "Syngenta Chlorpyrifos",
+      "hi": "Syngenta क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 58,
+    "name": {
+      "en": "Syngenta Fungicide Plus",
+      "hi": "Syngenta फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 59,
+    "name": {
+      "en": "Syngenta Hybrid Paddy Seeds",
+      "hi": "Syngenta हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 60,
+    "name": {
+      "en": "Syngenta Vermicompost",
+      "hi": "Syngenta वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 61,
+    "name": {
+      "en": "Tata Rallis NPK 19:19:19",
+      "hi": "Tata Rallis एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 62,
+    "name": {
+      "en": "Tata Rallis Lambda Cyhalothrin",
+      "hi": "Tata Rallis लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 63,
+    "name": {
+      "en": "Tata Rallis Crop Immunity Booster",
+      "hi": "Tata Rallis फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 64,
+    "name": {
+      "en": "Tata Rallis Hybrid Maize Seeds",
+      "hi": "Tata Rallis हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 65,
+    "name": {
+      "en": "Tata Rallis Neem Oil Concentrate",
+      "hi": "Tata Rallis नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 66,
+    "name": {
+      "en": "Coromandel Potash",
+      "hi": "Coromandel पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 67,
+    "name": {
+      "en": "Coromandel Cypermethrin",
+      "hi": "Coromandel साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 68,
+    "name": {
+      "en": "Coromandel Root Activator",
+      "hi": "Coromandel जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 69,
+    "name": {
+      "en": "Coromandel Vegetable Seed Mix",
+      "hi": "Coromandel सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 70,
+    "name": {
+      "en": "Coromandel Trichoderma",
+      "hi": "Coromandel ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 71,
+    "name": {
+      "en": "BASF Zinc Sulphate",
+      "hi": "BASF जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 72,
+    "name": {
+      "en": "BASF Thiamethoxam",
+      "hi": "BASF थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 73,
+    "name": {
+      "en": "BASF Micronutrient Mix",
+      "hi": "BASF सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 74,
+    "name": {
+      "en": "BASF Mustard Seeds",
+      "hi": "BASF सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 75,
+    "name": {
+      "en": "BASF Rhizobium Culture",
+      "hi": "BASF राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 76,
+    "name": {
+      "en": "PI Industries Urea",
+      "hi": "PI Industries यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 77,
+    "name": {
+      "en": "PI Industries Imidacloprid",
+      "hi": "PI Industries इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 78,
+    "name": {
+      "en": "PI Industries Plant Growth Regulator",
+      "hi": "PI Industries पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 79,
+    "name": {
+      "en": "PI Industries Hybrid Cotton Seeds",
+      "hi": "PI Industries हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 80,
+    "name": {
+      "en": "PI Industries Bio Fertilizer",
+      "hi": "PI Industries जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 81,
+    "name": {
+      "en": "IFFCO DAP",
+      "hi": "IFFCO डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 82,
+    "name": {
+      "en": "IFFCO Chlorpyrifos",
+      "hi": "IFFCO क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 83,
+    "name": {
+      "en": "IFFCO Fungicide Plus",
+      "hi": "IFFCO फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 84,
+    "name": {
+      "en": "IFFCO Hybrid Paddy Seeds",
+      "hi": "IFFCO हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 85,
+    "name": {
+      "en": "IFFCO Vermicompost",
+      "hi": "IFFCO वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 86,
+    "name": {
+      "en": "UPL NPK 19:19:19",
+      "hi": "UPL एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 87,
+    "name": {
+      "en": "UPL Lambda Cyhalothrin",
+      "hi": "UPL लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 88,
+    "name": {
+      "en": "UPL Crop Immunity Booster",
+      "hi": "UPL फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 89,
+    "name": {
+      "en": "UPL Hybrid Maize Seeds",
+      "hi": "UPL हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 90,
+    "name": {
+      "en": "UPL Neem Oil Concentrate",
+      "hi": "UPL नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 91,
+    "name": {
+      "en": "Bayer Potash",
+      "hi": "Bayer पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 92,
+    "name": {
+      "en": "Bayer Cypermethrin",
+      "hi": "Bayer साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 93,
+    "name": {
+      "en": "Bayer Root Activator",
+      "hi": "Bayer जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 94,
+    "name": {
+      "en": "Bayer Vegetable Seed Mix",
+      "hi": "Bayer सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 95,
+    "name": {
+      "en": "Bayer Trichoderma",
+      "hi": "Bayer ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 96,
+    "name": {
+      "en": "Syngenta Zinc Sulphate",
+      "hi": "Syngenta जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 97,
+    "name": {
+      "en": "Syngenta Thiamethoxam",
+      "hi": "Syngenta थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 98,
+    "name": {
+      "en": "Syngenta Micronutrient Mix",
+      "hi": "Syngenta सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 99,
+    "name": {
+      "en": "Syngenta Mustard Seeds",
+      "hi": "Syngenta सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 100,
+    "name": {
+      "en": "Syngenta Rhizobium Culture",
+      "hi": "Syngenta राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 101,
+    "name": {
+      "en": "Tata Rallis Urea",
+      "hi": "Tata Rallis यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 102,
+    "name": {
+      "en": "Tata Rallis Imidacloprid",
+      "hi": "Tata Rallis इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 103,
+    "name": {
+      "en": "Tata Rallis Plant Growth Regulator",
+      "hi": "Tata Rallis पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 104,
+    "name": {
+      "en": "Tata Rallis Hybrid Cotton Seeds",
+      "hi": "Tata Rallis हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 105,
+    "name": {
+      "en": "Tata Rallis Bio Fertilizer",
+      "hi": "Tata Rallis जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 106,
+    "name": {
+      "en": "Coromandel DAP",
+      "hi": "Coromandel डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 107,
+    "name": {
+      "en": "Coromandel Chlorpyrifos",
+      "hi": "Coromandel क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 108,
+    "name": {
+      "en": "Coromandel Fungicide Plus",
+      "hi": "Coromandel फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 109,
+    "name": {
+      "en": "Coromandel Hybrid Paddy Seeds",
+      "hi": "Coromandel हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 110,
+    "name": {
+      "en": "Coromandel Vermicompost",
+      "hi": "Coromandel वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 111,
+    "name": {
+      "en": "BASF NPK 19:19:19",
+      "hi": "BASF एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 112,
+    "name": {
+      "en": "BASF Lambda Cyhalothrin",
+      "hi": "BASF लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 113,
+    "name": {
+      "en": "BASF Crop Immunity Booster",
+      "hi": "BASF फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 114,
+    "name": {
+      "en": "BASF Hybrid Maize Seeds",
+      "hi": "BASF हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 115,
+    "name": {
+      "en": "BASF Neem Oil Concentrate",
+      "hi": "BASF नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 116,
+    "name": {
+      "en": "PI Industries Potash",
+      "hi": "PI Industries पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 117,
+    "name": {
+      "en": "PI Industries Cypermethrin",
+      "hi": "PI Industries साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 118,
+    "name": {
+      "en": "PI Industries Root Activator",
+      "hi": "PI Industries जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 119,
+    "name": {
+      "en": "PI Industries Vegetable Seed Mix",
+      "hi": "PI Industries सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 120,
+    "name": {
+      "en": "PI Industries Trichoderma",
+      "hi": "PI Industries ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 121,
+    "name": {
+      "en": "IFFCO Zinc Sulphate",
+      "hi": "IFFCO जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 122,
+    "name": {
+      "en": "IFFCO Thiamethoxam",
+      "hi": "IFFCO थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 123,
+    "name": {
+      "en": "IFFCO Micronutrient Mix",
+      "hi": "IFFCO सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 124,
+    "name": {
+      "en": "IFFCO Mustard Seeds",
+      "hi": "IFFCO सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 125,
+    "name": {
+      "en": "IFFCO Rhizobium Culture",
+      "hi": "IFFCO राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 126,
+    "name": {
+      "en": "UPL Urea",
+      "hi": "UPL यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 127,
+    "name": {
+      "en": "UPL Imidacloprid",
+      "hi": "UPL इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 128,
+    "name": {
+      "en": "UPL Plant Growth Regulator",
+      "hi": "UPL पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 129,
+    "name": {
+      "en": "UPL Hybrid Cotton Seeds",
+      "hi": "UPL हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 130,
+    "name": {
+      "en": "UPL Bio Fertilizer",
+      "hi": "UPL जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 131,
+    "name": {
+      "en": "Bayer DAP",
+      "hi": "Bayer डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 132,
+    "name": {
+      "en": "Bayer Chlorpyrifos",
+      "hi": "Bayer क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 133,
+    "name": {
+      "en": "Bayer Fungicide Plus",
+      "hi": "Bayer फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 134,
+    "name": {
+      "en": "Bayer Hybrid Paddy Seeds",
+      "hi": "Bayer हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 135,
+    "name": {
+      "en": "Bayer Vermicompost",
+      "hi": "Bayer वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 136,
+    "name": {
+      "en": "Syngenta NPK 19:19:19",
+      "hi": "Syngenta एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 137,
+    "name": {
+      "en": "Syngenta Lambda Cyhalothrin",
+      "hi": "Syngenta लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 138,
+    "name": {
+      "en": "Syngenta Crop Immunity Booster",
+      "hi": "Syngenta फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 139,
+    "name": {
+      "en": "Syngenta Hybrid Maize Seeds",
+      "hi": "Syngenta हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 140,
+    "name": {
+      "en": "Syngenta Neem Oil Concentrate",
+      "hi": "Syngenta नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 141,
+    "name": {
+      "en": "Tata Rallis Potash",
+      "hi": "Tata Rallis पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 142,
+    "name": {
+      "en": "Tata Rallis Cypermethrin",
+      "hi": "Tata Rallis साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 143,
+    "name": {
+      "en": "Tata Rallis Root Activator",
+      "hi": "Tata Rallis जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 144,
+    "name": {
+      "en": "Tata Rallis Vegetable Seed Mix",
+      "hi": "Tata Rallis सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 145,
+    "name": {
+      "en": "Tata Rallis Trichoderma",
+      "hi": "Tata Rallis ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 146,
+    "name": {
+      "en": "Coromandel Zinc Sulphate",
+      "hi": "Coromandel जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 147,
+    "name": {
+      "en": "Coromandel Thiamethoxam",
+      "hi": "Coromandel थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 148,
+    "name": {
+      "en": "Coromandel Micronutrient Mix",
+      "hi": "Coromandel सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 149,
+    "name": {
+      "en": "Coromandel Mustard Seeds",
+      "hi": "Coromandel सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 150,
+    "name": {
+      "en": "Coromandel Rhizobium Culture",
+      "hi": "Coromandel राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 151,
+    "name": {
+      "en": "BASF Urea",
+      "hi": "BASF यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 152,
+    "name": {
+      "en": "BASF Imidacloprid",
+      "hi": "BASF इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 153,
+    "name": {
+      "en": "BASF Plant Growth Regulator",
+      "hi": "BASF पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 154,
+    "name": {
+      "en": "BASF Hybrid Cotton Seeds",
+      "hi": "BASF हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 155,
+    "name": {
+      "en": "BASF Bio Fertilizer",
+      "hi": "BASF जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 156,
+    "name": {
+      "en": "PI Industries DAP",
+      "hi": "PI Industries डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 157,
+    "name": {
+      "en": "PI Industries Chlorpyrifos",
+      "hi": "PI Industries क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 158,
+    "name": {
+      "en": "PI Industries Fungicide Plus",
+      "hi": "PI Industries फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 159,
+    "name": {
+      "en": "PI Industries Hybrid Paddy Seeds",
+      "hi": "PI Industries हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 160,
+    "name": {
+      "en": "PI Industries Vermicompost",
+      "hi": "PI Industries वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 161,
+    "name": {
+      "en": "IFFCO NPK 19:19:19",
+      "hi": "IFFCO एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 162,
+    "name": {
+      "en": "IFFCO Lambda Cyhalothrin",
+      "hi": "IFFCO लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 163,
+    "name": {
+      "en": "IFFCO Crop Immunity Booster",
+      "hi": "IFFCO फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 164,
+    "name": {
+      "en": "IFFCO Hybrid Maize Seeds",
+      "hi": "IFFCO हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 165,
+    "name": {
+      "en": "IFFCO Neem Oil Concentrate",
+      "hi": "IFFCO नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 166,
+    "name": {
+      "en": "UPL Potash",
+      "hi": "UPL पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 167,
+    "name": {
+      "en": "UPL Cypermethrin",
+      "hi": "UPL साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 168,
+    "name": {
+      "en": "UPL Root Activator",
+      "hi": "UPL जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 169,
+    "name": {
+      "en": "UPL Vegetable Seed Mix",
+      "hi": "UPL सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 170,
+    "name": {
+      "en": "UPL Trichoderma",
+      "hi": "UPL ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 171,
+    "name": {
+      "en": "Bayer Zinc Sulphate",
+      "hi": "Bayer जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 172,
+    "name": {
+      "en": "Bayer Thiamethoxam",
+      "hi": "Bayer थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 173,
+    "name": {
+      "en": "Bayer Micronutrient Mix",
+      "hi": "Bayer सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 174,
+    "name": {
+      "en": "Bayer Mustard Seeds",
+      "hi": "Bayer सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 175,
+    "name": {
+      "en": "Bayer Rhizobium Culture",
+      "hi": "Bayer राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 176,
+    "name": {
+      "en": "Syngenta Urea",
+      "hi": "Syngenta यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 177,
+    "name": {
+      "en": "Syngenta Imidacloprid",
+      "hi": "Syngenta इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 178,
+    "name": {
+      "en": "Syngenta Plant Growth Regulator",
+      "hi": "Syngenta पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 179,
+    "name": {
+      "en": "Syngenta Hybrid Cotton Seeds",
+      "hi": "Syngenta हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 180,
+    "name": {
+      "en": "Syngenta Bio Fertilizer",
+      "hi": "Syngenta जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 181,
+    "name": {
+      "en": "Tata Rallis DAP",
+      "hi": "Tata Rallis डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 182,
+    "name": {
+      "en": "Tata Rallis Chlorpyrifos",
+      "hi": "Tata Rallis क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 183,
+    "name": {
+      "en": "Tata Rallis Fungicide Plus",
+      "hi": "Tata Rallis फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 184,
+    "name": {
+      "en": "Tata Rallis Hybrid Paddy Seeds",
+      "hi": "Tata Rallis हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 185,
+    "name": {
+      "en": "Tata Rallis Vermicompost",
+      "hi": "Tata Rallis वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 186,
+    "name": {
+      "en": "Coromandel NPK 19:19:19",
+      "hi": "Coromandel एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 187,
+    "name": {
+      "en": "Coromandel Lambda Cyhalothrin",
+      "hi": "Coromandel लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 188,
+    "name": {
+      "en": "Coromandel Crop Immunity Booster",
+      "hi": "Coromandel फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 189,
+    "name": {
+      "en": "Coromandel Hybrid Maize Seeds",
+      "hi": "Coromandel हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 190,
+    "name": {
+      "en": "Coromandel Neem Oil Concentrate",
+      "hi": "Coromandel नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 191,
+    "name": {
+      "en": "BASF Potash",
+      "hi": "BASF पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 192,
+    "name": {
+      "en": "BASF Cypermethrin",
+      "hi": "BASF साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 193,
+    "name": {
+      "en": "BASF Root Activator",
+      "hi": "BASF जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 194,
+    "name": {
+      "en": "BASF Vegetable Seed Mix",
+      "hi": "BASF सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 195,
+    "name": {
+      "en": "BASF Trichoderma",
+      "hi": "BASF ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 196,
+    "name": {
+      "en": "PI Industries Zinc Sulphate",
+      "hi": "PI Industries जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 197,
+    "name": {
+      "en": "PI Industries Thiamethoxam",
+      "hi": "PI Industries थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 198,
+    "name": {
+      "en": "PI Industries Micronutrient Mix",
+      "hi": "PI Industries सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 199,
+    "name": {
+      "en": "PI Industries Mustard Seeds",
+      "hi": "PI Industries सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 200,
+    "name": {
+      "en": "PI Industries Rhizobium Culture",
+      "hi": "PI Industries राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 201,
+    "name": {
+      "en": "IFFCO Urea",
+      "hi": "IFFCO यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 202,
+    "name": {
+      "en": "IFFCO Imidacloprid",
+      "hi": "IFFCO इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 203,
+    "name": {
+      "en": "IFFCO Plant Growth Regulator",
+      "hi": "IFFCO पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 204,
+    "name": {
+      "en": "IFFCO Hybrid Cotton Seeds",
+      "hi": "IFFCO हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 205,
+    "name": {
+      "en": "IFFCO Bio Fertilizer",
+      "hi": "IFFCO जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 206,
+    "name": {
+      "en": "UPL DAP",
+      "hi": "UPL डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 207,
+    "name": {
+      "en": "UPL Chlorpyrifos",
+      "hi": "UPL क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 208,
+    "name": {
+      "en": "UPL Fungicide Plus",
+      "hi": "UPL फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 209,
+    "name": {
+      "en": "UPL Hybrid Paddy Seeds",
+      "hi": "UPL हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 210,
+    "name": {
+      "en": "UPL Vermicompost",
+      "hi": "UPL वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 211,
+    "name": {
+      "en": "Bayer NPK 19:19:19",
+      "hi": "Bayer एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 212,
+    "name": {
+      "en": "Bayer Lambda Cyhalothrin",
+      "hi": "Bayer लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 213,
+    "name": {
+      "en": "Bayer Crop Immunity Booster",
+      "hi": "Bayer फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 214,
+    "name": {
+      "en": "Bayer Hybrid Maize Seeds",
+      "hi": "Bayer हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 215,
+    "name": {
+      "en": "Bayer Neem Oil Concentrate",
+      "hi": "Bayer नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 216,
+    "name": {
+      "en": "Syngenta Potash",
+      "hi": "Syngenta पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 217,
+    "name": {
+      "en": "Syngenta Cypermethrin",
+      "hi": "Syngenta साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 218,
+    "name": {
+      "en": "Syngenta Root Activator",
+      "hi": "Syngenta जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 219,
+    "name": {
+      "en": "Syngenta Vegetable Seed Mix",
+      "hi": "Syngenta सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 220,
+    "name": {
+      "en": "Syngenta Trichoderma",
+      "hi": "Syngenta ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 221,
+    "name": {
+      "en": "Tata Rallis Zinc Sulphate",
+      "hi": "Tata Rallis जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 222,
+    "name": {
+      "en": "Tata Rallis Thiamethoxam",
+      "hi": "Tata Rallis थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 223,
+    "name": {
+      "en": "Tata Rallis Micronutrient Mix",
+      "hi": "Tata Rallis सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 224,
+    "name": {
+      "en": "Tata Rallis Mustard Seeds",
+      "hi": "Tata Rallis सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 225,
+    "name": {
+      "en": "Tata Rallis Rhizobium Culture",
+      "hi": "Tata Rallis राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 226,
+    "name": {
+      "en": "Coromandel Urea",
+      "hi": "Coromandel यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 227,
+    "name": {
+      "en": "Coromandel Imidacloprid",
+      "hi": "Coromandel इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 228,
+    "name": {
+      "en": "Coromandel Plant Growth Regulator",
+      "hi": "Coromandel पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 229,
+    "name": {
+      "en": "Coromandel Hybrid Cotton Seeds",
+      "hi": "Coromandel हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 230,
+    "name": {
+      "en": "Coromandel Bio Fertilizer",
+      "hi": "Coromandel जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 231,
+    "name": {
+      "en": "BASF DAP",
+      "hi": "BASF डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 232,
+    "name": {
+      "en": "BASF Chlorpyrifos",
+      "hi": "BASF क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 233,
+    "name": {
+      "en": "BASF Fungicide Plus",
+      "hi": "BASF फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 234,
+    "name": {
+      "en": "BASF Hybrid Paddy Seeds",
+      "hi": "BASF हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 235,
+    "name": {
+      "en": "BASF Vermicompost",
+      "hi": "BASF वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 236,
+    "name": {
+      "en": "PI Industries NPK 19:19:19",
+      "hi": "PI Industries एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 237,
+    "name": {
+      "en": "PI Industries Lambda Cyhalothrin",
+      "hi": "PI Industries लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 238,
+    "name": {
+      "en": "PI Industries Crop Immunity Booster",
+      "hi": "PI Industries फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 239,
+    "name": {
+      "en": "PI Industries Hybrid Maize Seeds",
+      "hi": "PI Industries हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 240,
+    "name": {
+      "en": "PI Industries Neem Oil Concentrate",
+      "hi": "PI Industries नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 241,
+    "name": {
+      "en": "IFFCO Potash",
+      "hi": "IFFCO पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 242,
+    "name": {
+      "en": "IFFCO Cypermethrin",
+      "hi": "IFFCO साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 243,
+    "name": {
+      "en": "IFFCO Root Activator",
+      "hi": "IFFCO जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 244,
+    "name": {
+      "en": "IFFCO Vegetable Seed Mix",
+      "hi": "IFFCO सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 245,
+    "name": {
+      "en": "IFFCO Trichoderma",
+      "hi": "IFFCO ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 246,
+    "name": {
+      "en": "UPL Zinc Sulphate",
+      "hi": "UPL जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 247,
+    "name": {
+      "en": "UPL Thiamethoxam",
+      "hi": "UPL थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 248,
+    "name": {
+      "en": "UPL Micronutrient Mix",
+      "hi": "UPL सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 249,
+    "name": {
+      "en": "UPL Mustard Seeds",
+      "hi": "UPL सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 250,
+    "name": {
+      "en": "UPL Rhizobium Culture",
+      "hi": "UPL राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 251,
+    "name": {
+      "en": "Bayer Urea",
+      "hi": "Bayer यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 252,
+    "name": {
+      "en": "Bayer Imidacloprid",
+      "hi": "Bayer इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 253,
+    "name": {
+      "en": "Bayer Plant Growth Regulator",
+      "hi": "Bayer पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 254,
+    "name": {
+      "en": "Bayer Hybrid Cotton Seeds",
+      "hi": "Bayer हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 255,
+    "name": {
+      "en": "Bayer Bio Fertilizer",
+      "hi": "Bayer जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 256,
+    "name": {
+      "en": "Syngenta DAP",
+      "hi": "Syngenta डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 257,
+    "name": {
+      "en": "Syngenta Chlorpyrifos",
+      "hi": "Syngenta क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 258,
+    "name": {
+      "en": "Syngenta Fungicide Plus",
+      "hi": "Syngenta फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 259,
+    "name": {
+      "en": "Syngenta Hybrid Paddy Seeds",
+      "hi": "Syngenta हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 260,
+    "name": {
+      "en": "Syngenta Vermicompost",
+      "hi": "Syngenta वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 261,
+    "name": {
+      "en": "Tata Rallis NPK 19:19:19",
+      "hi": "Tata Rallis एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 262,
+    "name": {
+      "en": "Tata Rallis Lambda Cyhalothrin",
+      "hi": "Tata Rallis लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 263,
+    "name": {
+      "en": "Tata Rallis Crop Immunity Booster",
+      "hi": "Tata Rallis फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 264,
+    "name": {
+      "en": "Tata Rallis Hybrid Maize Seeds",
+      "hi": "Tata Rallis हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 265,
+    "name": {
+      "en": "Tata Rallis Neem Oil Concentrate",
+      "hi": "Tata Rallis नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Tata Rallis agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Tata Rallis का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 266,
+    "name": {
+      "en": "Coromandel Potash",
+      "hi": "Coromandel पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 267,
+    "name": {
+      "en": "Coromandel Cypermethrin",
+      "hi": "Coromandel साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 268,
+    "name": {
+      "en": "Coromandel Root Activator",
+      "hi": "Coromandel जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 269,
+    "name": {
+      "en": "Coromandel Vegetable Seed Mix",
+      "hi": "Coromandel सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 270,
+    "name": {
+      "en": "Coromandel Trichoderma",
+      "hi": "Coromandel ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Coromandel agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Coromandel का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 271,
+    "name": {
+      "en": "BASF Zinc Sulphate",
+      "hi": "BASF जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 272,
+    "name": {
+      "en": "BASF Thiamethoxam",
+      "hi": "BASF थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 273,
+    "name": {
+      "en": "BASF Micronutrient Mix",
+      "hi": "BASF सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 274,
+    "name": {
+      "en": "BASF Mustard Seeds",
+      "hi": "BASF सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 275,
+    "name": {
+      "en": "BASF Rhizobium Culture",
+      "hi": "BASF राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted BASF agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "BASF का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 276,
+    "name": {
+      "en": "PI Industries Urea",
+      "hi": "PI Industries यूरिया"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 277,
+    "name": {
+      "en": "PI Industries Imidacloprid",
+      "hi": "PI Industries इमिडाक्लोप्रिड"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 278,
+    "name": {
+      "en": "PI Industries Plant Growth Regulator",
+      "hi": "PI Industries पौध वृद्धि नियामक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 279,
+    "name": {
+      "en": "PI Industries Hybrid Cotton Seeds",
+      "hi": "PI Industries हाइब्रिड कपास बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 280,
+    "name": {
+      "en": "PI Industries Bio Fertilizer",
+      "hi": "PI Industries जैव उर्वरक"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted PI Industries agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "PI Industries का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 281,
+    "name": {
+      "en": "IFFCO DAP",
+      "hi": "IFFCO डीएपी"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 282,
+    "name": {
+      "en": "IFFCO Chlorpyrifos",
+      "hi": "IFFCO क्लोरपायरीफॉस"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 283,
+    "name": {
+      "en": "IFFCO Fungicide Plus",
+      "hi": "IFFCO फफूंदनाशक प्लस"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 284,
+    "name": {
+      "en": "IFFCO Hybrid Paddy Seeds",
+      "hi": "IFFCO हाइब्रिड धान बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 285,
+    "name": {
+      "en": "IFFCO Vermicompost",
+      "hi": "IFFCO वर्मी कम्पोस्ट"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted IFFCO agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "IFFCO का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 286,
+    "name": {
+      "en": "UPL NPK 19:19:19",
+      "hi": "UPL एनपीके 19:19:19"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 287,
+    "name": {
+      "en": "UPL Lambda Cyhalothrin",
+      "hi": "UPL लैम्ब्डा साइहेलोथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 288,
+    "name": {
+      "en": "UPL Crop Immunity Booster",
+      "hi": "UPL फसल प्रतिरक्षा बूस्टर"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 289,
+    "name": {
+      "en": "UPL Hybrid Maize Seeds",
+      "hi": "UPL हाइब्रिड मक्का बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 290,
+    "name": {
+      "en": "UPL Neem Oil Concentrate",
+      "hi": "UPL नीम तेल सांद्रण"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted UPL agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "UPL का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 291,
+    "name": {
+      "en": "Bayer Potash",
+      "hi": "Bayer पोटाश"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 292,
+    "name": {
+      "en": "Bayer Cypermethrin",
+      "hi": "Bayer साइपरमेथ्रिन"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 293,
+    "name": {
+      "en": "Bayer Root Activator",
+      "hi": "Bayer जड़ सक्रियक"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 294,
+    "name": {
+      "en": "Bayer Vegetable Seed Mix",
+      "hi": "Bayer सब्जी बीज मिश्रण"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 295,
+    "name": {
+      "en": "Bayer Trichoderma",
+      "hi": "Bayer ट्राइकोडर्मा"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Bayer agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Bayer का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 296,
+    "name": {
+      "en": "Syngenta Zinc Sulphate",
+      "hi": "Syngenta जिंक सल्फेट"
+    },
+    "category": {
+      "en": "Fertilizers",
+      "hi": "उर्वरक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 297,
+    "name": {
+      "en": "Syngenta Thiamethoxam",
+      "hi": "Syngenta थायमेथोक्सम"
+    },
+    "category": {
+      "en": "Pesticides",
+      "hi": "कीटनाशक"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 298,
+    "name": {
+      "en": "Syngenta Micronutrient Mix",
+      "hi": "Syngenta सूक्ष्म पोषक मिश्रण"
+    },
+    "category": {
+      "en": "Medicines",
+      "hi": "दवाएं"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 299,
+    "name": {
+      "en": "Syngenta Mustard Seeds",
+      "hi": "Syngenta सरसों बीज"
+    },
+    "category": {
+      "en": "Seeds",
+      "hi": "बीज"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 300,
+    "name": {
+      "en": "Syngenta Rhizobium Culture",
+      "hi": "Syngenta राइजोबियम कल्चर"
+    },
+    "category": {
+      "en": "Bio Products",
+      "hi": "जैव उत्पाद"
+    },
+    "description": {
+      "en": "Trusted Syngenta agro product used by farmers to improve yield, plant health, and crop protection.",
+      "hi": "Syngenta का भरोसेमंद कृषि उत्पाद जो फसल की उपज, पौध स्वास्थ्य और सुरक्षा में सुधार करता है।"
+    },
+    "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=500&q=80"
+  }
 ]
